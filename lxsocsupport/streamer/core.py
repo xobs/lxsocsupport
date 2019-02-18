@@ -45,4 +45,4 @@ class USBStreamer(Module):
         )
 
         # add vhdl sources
-        platform.add_source_dir(os.path.join("gateware", "streamer", "vhdl"))
+        platform.add_source_dir(os.path.join("lxsocsupport", "streamer", "vhdl"))

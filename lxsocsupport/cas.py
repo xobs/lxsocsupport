@@ -10,7 +10,7 @@ from litex.soc.interconnect.csr_eventmanager import *
 from migen.genlib.misc import WaitTimer
 
 from litex.soc.cores.gpio import GPIOIn, GPIOOut
-from gateware.led import RGBLed
+from lxsocsupport.led import RGBLed
 
 class ControlAndStatus(Module, AutoCSR):
     def __init__(self, platform, clk_freq):

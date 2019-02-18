@@ -14,7 +14,7 @@ from migen.genlib.misc import split, displacer, chooser
 from litex.soc.cores.gpio import GPIOIn, GPIOOut
 from litex.soc.interconnect.csr import *
 
-from gateware import i2c
+from lxsocsupport import i2c
 
 
 class I2CShiftReg(Module, AutoCSR):

@@ -4,7 +4,7 @@ from migen.fhdl import *
 from litex.soc.cores.gpio import GPIOIn, GPIOOut
 from litex.soc.interconnect.csr import *
 
-from gateware import i2c
+from lxsocsupport import i2c
 
 
 class TOFE(Module, AutoCSR):
